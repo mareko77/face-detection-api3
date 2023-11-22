@@ -18,18 +18,6 @@ const db = knex({
     password : 'U2U3EBM4$PPJ@kC',
     database : 'smartbrain'
   }
-});*/
-
-
-const db = knex({
-  // connect to your own database here:
-  client: 'pg',
-  connection: {
-    host : '127.0.0.1',
-    user : 'postgres',
-    password : 'test',
-    database : 'smartbrain'
-  }
 });
 
 const app = express();
